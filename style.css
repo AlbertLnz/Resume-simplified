@@ -9,19 +9,19 @@ h1 {
   font-size: 3em;
   letter-spacing: .6em;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 0.2em;
 }
 
 h2 {
   font-size: 1.5em;
-  padding-bottom: 1em;
+  padding-bottom: 0.6em;
   margin-left: 1em;
 }
 
 main { 
   display: grid;
   grid-template-columns: 40% 60%;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 header {
@@ -30,7 +30,7 @@ header {
 }
 
 section {
-  margin: auto 1em 4em 2em;
+  margin: auto 1em 3em 2em;
 }
 
 i {
@@ -52,6 +52,41 @@ h1, h2 {
   margin-bottom: 0;
 }
 
+span {
+    font-weight: 700;
+}
+
 #mainLeft {
   border-right: 1px solid lightgray;
+}
+
+#phone {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos dentro del contenedor flex */
+}
+
+#phone i {
+  margin-right: 10px; /* Puedes ajustar este valor según tus preferencias para agregar espacio entre el icono y el número de teléfono */
+  width: fit;
+}
+
+#formacion{
+  padding-inline-start: 0;
+  margin: auto 1em 4em 2em;
+}
+
+#formacion li {
+  margin-bottom: 10px;
+}
+
+#codigo {
+  width: 100%;
+  display: flex;
+  place-content: center;
+  margin: 2em auto;
+}
+
+#idiomas {
+  display: flex;
+  justify-content: space-around;
 }
