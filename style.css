@@ -30,7 +30,7 @@ header {
 }
 
 section {
-  margin: auto 1em 3em 2em;
+  margin: auto 1em 2.6em 2em;
 }
 
 i {
@@ -56,23 +56,27 @@ span {
     font-weight: 700;
 }
 
+input:hover {
+  cursor: pointer
+}
+
 #mainLeft {
   border-right: 1px solid lightgray;
 }
 
 #phone {
   display: flex;
-  align-items: center; /* Centra verticalmente los elementos dentro del contenedor flex */
+  align-items: center;
 }
 
 #phone i {
-  margin-right: 10px; /* Puedes ajustar este valor según tus preferencias para agregar espacio entre el icono y el número de teléfono */
+  margin-right: 10px;
   width: fit;
 }
 
 #formacion{
   padding-inline-start: 0;
-  margin: auto 1em 4em 2em;
+  margin: auto 1em 2.6em 2em;
 }
 
 #formacion li {
@@ -89,4 +93,17 @@ span {
 #idiomas {
   display: flex;
   justify-content: space-around;
+}
+
+#print {
+  position: relative;
+  padding: 1px;
+}
+
+#print input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  font-size: 11px;
 }
