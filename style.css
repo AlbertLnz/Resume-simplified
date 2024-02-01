@@ -107,3 +107,9 @@ input:hover {
   height: 100%;
   font-size: 11px;
 }
+
+@media print {
+  #printButton {
+    display: none;
+  }
+}
